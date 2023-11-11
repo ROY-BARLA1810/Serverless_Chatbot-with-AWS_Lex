@@ -1,0 +1,41 @@
+What is intent?
+Within a chatbot, intent refers to the goal the customer has in mind when typing in a question or comment. While entity refers to the modifier the customer uses to describe their issue, intent is what they really mean.
+Can I order pizza
+I want to order a pizza
+
+What is slot ?
+A slot is an information that Amazon lex needs to fulfill an intent. Each slot has a slot types. You can create your custom slot types or use built in slot types
+For example, the orderpizza intent requires slots such as pizza size and pizza type.
+
+What is slotType?
+Each Slot has a type. You can create your slot type or use buit-in slot types.
+For example you might creates and use the following slot types for the order pizza intent.
+Size small, medium and large
+Crust  thick or thin
+
+----------------------Hotel Booking Chatbot--------------------------------
+
+Intent:
+Book a hotel
+I want to make a hotel reservation
+Book 3 night stay In Mumbai
+Book A {night} stay in {location}
+
+Slots:
+Location:
+Prompts : Which city you are going to stay?
+ 
+Checkin date:
+Prompts:
+What day do you want to check in?
+ 
+Nights:
+Prompts:
+How many nights will you be staying?
+ 
+Roomtype:
+Prompts:
+What type of room would you like to book, Queen,King, Deluxe and Super Deluxe?
+ 
+Confirmation Prompt:
+Okay,Okay, I’m Booking for a {Nights} night stay in{Location} starting {CheckInDate}.Shall I book the reservation?

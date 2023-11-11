@@ -28,7 +28,7 @@ STEP13:In confirmation prompts add Okay,I have youn down for a {Nights} night st
 
 STEP14:In fullfillment goto adwanced options add thanyou in messagegroup and click update options SAVE INTENT & BUILD
 
----------------------------------------ATTACHING BOT TO LAMBDA-------------------------------------------------------------
+---------------------------------------ATTACHING BOT TO LAMBDA---------------------------------------------------------
 
 STEP1:Create a fuction with Python3.9 as Runtime
 
@@ -44,7 +44,7 @@ STEP6:Update the Given python code in Lambda and Deploy
 
 STEP7:Build & Test the HotelBooking Intent
 
---------------------------------------CREATING TWILIO ACCOUNT---------------------------------------------------------------
+--------------------------------------CREATING TWILIO ACCOUNT-----------------------------------------------------------
 
 STEP1:Buy a Number with SMS capabilities
 
